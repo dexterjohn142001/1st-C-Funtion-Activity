@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+
+
+    int english, science, pe, filipino, genmath;
+
+    english = 93;
+    science = 96;
+    pe = 94;
+    filipino = 95;
+    genmath = 91;
+
+    int addsub = english + science + pe + filipino + genmath;
+
+    float ave = (float) addsub/5;
+
+    printf("The average is: %f\n",ave);
+}
